@@ -1,0 +1,1 @@
+dot -ographemoji-dot.svg -Tsvg logo.gv

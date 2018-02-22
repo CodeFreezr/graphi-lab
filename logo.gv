@@ -1,0 +1,22 @@
+digraph g{
+
+graph[penwidth=10 bgcolor=gray15 rankdir="BT"]
+edge[penwidth=5 color=greenyellow]
+node[shape=none ]
+
+  i1[image="specials\emoji-0009.png" label=""];
+  i2[image="specials\emoji-2410.png" label=""];
+  i3[image="specials\emoji-0089.png" label=""];
+  i4[image="specials\emoji-1858.png" label=""];
+  i5[image="specials\emoji-0012.png" label=""];
+  i6[image="specials\emoji-0022.png" label=""];
+
+    i1 -> i3;
+    i1 -> i5;
+    i6 -> i2;
+    i3 -> i5;
+    i4 -> i5;
+    i4 -> i3;
+    i5 -> i2;
+    i6 -> i5;
+}

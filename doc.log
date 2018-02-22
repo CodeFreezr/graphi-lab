@@ -1,0 +1,487 @@
+
+C:\Temp>acyclic.exe -?  
+
+C:\Temp>bcomps.exe -? 
+Usage: bcomps [-stvx?] [-o<out template>] <files>
+  -o - output file template
+  -s - don't print components
+  -t - emit block-cutpoint tree
+  -v - verbose
+  -x - external
+  -? - print usage
+If no files are specified, stdin is used
+
+C:\Temp>ccomps.exe -? 
+Usage: ccomps [-svenCx?] [-X[#%]s[-f]] [-o<out template>] <files>
+  -s - silent
+  -x - external
+  -X - extract component
+  -C - use clusters
+  -e - do not induce edges
+  -n - do not induce subgraphs
+  -v - verbose
+  -o - output file template
+  -z - sort by size, largest first
+  -? - print usage
+If no files are specified, stdin is used
+
+C:\Temp>circo.exe -? 
+Usage: circo [-Vv?] [-(GNE)name=val] [-(KTlso)<val>] <dot files>
+(additional options for neato)    [-x] [-n<v>]
+(additional options for fdp)      [-L(gO)] [-L(nUCT)<val>]
+(additional options for memtest)  [-m<v>]
+(additional options for config)  [-cv]
+
+ -V          - Print version and exit
+ -v          - Enable verbose mode 
+ -Gname=val  - Set graph attribute 'name' to 'val'
+ -Nname=val  - Set node attribute 'name' to 'val'
+ -Ename=val  - Set edge attribute 'name' to 'val'
+ -Tv         - Set output format to 'v'
+ -Kv         - Set layout engine to 'v' (overrides default based on command name)
+ -lv         - Use external library 'v'
+ -ofile      - Write output to 'file'
+ -O          - Automatically generate an output filename based on the input filename with a .'format' appended. (Causes all -ofile options to be ignored.) 
+ -P          - Internally generate a graph of the current plugins. 
+ -q[l]       - Set level of message suppression (=1)
+ -s[v]       - Scale input by 'v' (=72)
+ -y          - Invert y coordinate in output
+
+ -n[v]       - No layout mode 'v' (=1)
+ -x          - Reduce graph
+
+ -Lg         - Don't use grid
+ -LO         - Use old attractive force
+ -Ln<i>      - Set number of iterations to i
+ -LU<i>      - Set unscaled factor to i
+ -LC<v>      - Set overlap expansion factor to v
+ -LT[*]<v>   - Set temperature (temperature factor) to v
+
+ -m          - Memory test (Observe no growth with top. Kill when done.)
+ -m[v]       - Memory test - v iterations.
+
+ -c          - Configure plugins (Writes $prefix/lib/graphviz/config 
+               with available plugin information.  Needs write privilege.)
+ -?          - Print usage and exit
+
+C:\Temp>dijkstra.exe -? 
+Usage: dijkstra [-ap?] <node> [<file> <node> <file>]
+  -a - for nodes in a different component, set dist very large
+  -d - use forward directed edges
+  -p - attach shortest path info
+  -? - print usage
+If no files are specified, stdin is used
+
+C:\Temp>dot.exe -? 
+Usage: dot [-Vv?] [-(GNE)name=val] [-(KTlso)<val>] <dot files>
+(additional options for neato)    [-x] [-n<v>]
+(additional options for fdp)      [-L(gO)] [-L(nUCT)<val>]
+(additional options for memtest)  [-m<v>]
+(additional options for config)  [-cv]
+
+ -V          - Print version and exit
+ -v          - Enable verbose mode 
+ -Gname=val  - Set graph attribute 'name' to 'val'
+ -Nname=val  - Set node attribute 'name' to 'val'
+ -Ename=val  - Set edge attribute 'name' to 'val'
+ -Tv         - Set output format to 'v'
+ -Kv         - Set layout engine to 'v' (overrides default based on command name)
+ -lv         - Use external library 'v'
+ -ofile      - Write output to 'file'
+ -O          - Automatically generate an output filename based on the input filename with a .'format' appended. (Causes all -ofile options to be ignored.) 
+ -P          - Internally generate a graph of the current plugins. 
+ -q[l]       - Set level of message suppression (=1)
+ -s[v]       - Scale input by 'v' (=72)
+ -y          - Invert y coordinate in output
+
+ -n[v]       - No layout mode 'v' (=1)
+ -x          - Reduce graph
+
+ -Lg         - Don't use grid
+ -LO         - Use old attractive force
+ -Ln<i>      - Set number of iterations to i
+ -LU<i>      - Set unscaled factor to i
+ -LC<v>      - Set overlap expansion factor to v
+ -LT[*]<v>   - Set temperature (temperature factor) to v
+
+ -m          - Memory test (Observe no growth with top. Kill when done.)
+ -m[v]       - Memory test - v iterations.
+
+ -c          - Configure plugins (Writes $prefix/lib/graphviz/config 
+               with available plugin information.  Needs write privilege.)
+ -?          - Print usage and exit
+
+C:\Temp>rem dotty.exe -? 
+
+C:\Temp>fc-cache.exe -? 
+
+C:\Temp>fc-cat.exe -? 
+
+C:\Temp>fc-list.exe -? 
+
+C:\Temp>fc-match.exe -? 
+
+C:\Temp>fdp.exe -? 
+Usage: fdp [-Vv?] [-(GNE)name=val] [-(KTlso)<val>] <dot files>
+(additional options for neato)    [-x] [-n<v>]
+(additional options for fdp)      [-L(gO)] [-L(nUCT)<val>]
+(additional options for memtest)  [-m<v>]
+(additional options for config)  [-cv]
+
+ -V          - Print version and exit
+ -v          - Enable verbose mode 
+ -Gname=val  - Set graph attribute 'name' to 'val'
+ -Nname=val  - Set node attribute 'name' to 'val'
+ -Ename=val  - Set edge attribute 'name' to 'val'
+ -Tv         - Set output format to 'v'
+ -Kv         - Set layout engine to 'v' (overrides default based on command name)
+ -lv         - Use external library 'v'
+ -ofile      - Write output to 'file'
+ -O          - Automatically generate an output filename based on the input filename with a .'format' appended. (Causes all -ofile options to be ignored.) 
+ -P          - Internally generate a graph of the current plugins. 
+ -q[l]       - Set level of message suppression (=1)
+ -s[v]       - Scale input by 'v' (=72)
+ -y          - Invert y coordinate in output
+
+ -n[v]       - No layout mode 'v' (=1)
+ -x          - Reduce graph
+
+ -Lg         - Don't use grid
+ -LO         - Use old attractive force
+ -Ln<i>      - Set number of iterations to i
+ -LU<i>      - Set unscaled factor to i
+ -LC<v>      - Set overlap expansion factor to v
+ -LT[*]<v>   - Set temperature (temperature factor) to v
+
+ -m          - Memory test (Observe no growth with top. Kill when done.)
+ -m[v]       - Memory test - v iterations.
+
+ -c          - Configure plugins (Writes $prefix/lib/graphviz/config 
+               with available plugin information.  Needs write privilege.)
+ -?          - Print usage and exit
+
+C:\Temp>gc.exe -? 
+Usage: gc [-necCaDUrsv?] <files>
+  -n - print number of nodes
+  -e - print number of edges
+  -c - print number of connected components
+  -C - print number of clusters
+  -a - print all counts
+  -D - only directed graphs
+  -U - only undirected graphs
+  -r - recursively analyze subgraphs
+  -s - silent
+  -v - verbose
+  -? - print usage
+By default, gc prints nodes and edges
+If no files are specified, stdin is used
+
+C:\Temp>gml2gv.exe -? 
+Usage: gml2gv.exe [-?] <files>
+  -o<file>  : output to <file> (stdout)
+  -? - print usage
+If no files are specified, stdin is used
+
+C:\Temp>graphml2gv.exe -? 
+
+C:\Temp>gv2gml.exe -? 
+Usage: gv2gml.exe [-?] <files>
+  -o<file>  : output to <file> (stdout)
+  -? - print usage
+If no files are specified, stdin is used
+
+C:\Temp>gvcolor.exe -? 
+Usage: gvcolor [-?] <files>
+  -? - print usage
+If no files are specified, stdin is used
+
+C:\Temp>gvedit.exe -? 
+Usage: gvedit [-v?] <files>
+  -s    - Scale input by 72
+  -v    - verbose
+  -?    - print usage
+
+C:\Temp>gvgen.exe -? 
+Usage: gvgen.exe [-dv?] [options]
+ -c<n>         : cycle 
+ -C<x,y>       : cylinder 
+ -g[f]<h,w>    : grid (folded if f is used)
+ -G[f]<h,w>    : partial grid (folded if f is used)
+ -h<x>         : hypercube 
+ -k<x>         : complete 
+ -b<x,y>       : complete bipartite
+ -B<x,y>       : ball
+ -i<n>         : generate <n> random
+ -m<x>         : triangular mesh
+ -M<x,y>       : x by y Moebius strip
+ -n<prefix>    : use <prefix> in node names ("")
+ -N<name>      : use <name> for the graph ("")
+ -o<outfile>   : put output in <outfile> (stdout)
+ -p<x>         : path 
+ -r<x>,<n>     : random graph
+ -R<n>         : random rooted tree on <n> vertices
+ -s<x>         : star
+ -S<x>         : sierpinski
+ -t<x>         : binary tree 
+ -t<x>,<n>     : n-ary tree 
+ -T<x,y>       : torus 
+ -T<x,y,t1,t2> : twisted torus 
+ -w<x>         : wheel
+ -d            : directed graph
+ -v            : verbose mode
+ -?            : print usage
+
+C:\Temp>gvmap.exe -? 
+
+C:\Temp>gvpack.exe -? 
+Usage: gvpack [-gnuv?] [-m<margin>] {-array[_rc][n]] [-o<outf>] <files>
+  -n          - use node granularity
+  -g          - use graph granularity
+  -array*     - pack as array of graphs
+  -G<n>=<v>   - attach name/value attribute to output graph
+  -m<n>       - set margin to <n> points
+  -s<gname>   - use <gname> for name of root graph
+  -o<outfile> - write output to <outfile>
+  -u          - no packing; just combine graphs
+  -v          - verbose
+  -?          - print usage
+If no files are specified, stdin is used
+
+C:\Temp>gvpr.exe -? 
+
+C:\Temp>gxl2gv.exe -? 
+
+C:\Temp>lefty.exe -? 
+
+C:\Temp>rem lneato.exe -? 
+
+C:\Temp>mingle.exe -? 
+
+C:\Temp>mm2gv.exe -? 
+
+C:\Temp>neato.exe -? 
+Usage: neato [-Vv?] [-(GNE)name=val] [-(KTlso)<val>] <dot files>
+(additional options for neato)    [-x] [-n<v>]
+(additional options for fdp)      [-L(gO)] [-L(nUCT)<val>]
+(additional options for memtest)  [-m<v>]
+(additional options for config)  [-cv]
+
+ -V          - Print version and exit
+ -v          - Enable verbose mode 
+ -Gname=val  - Set graph attribute 'name' to 'val'
+ -Nname=val  - Set node attribute 'name' to 'val'
+ -Ename=val  - Set edge attribute 'name' to 'val'
+ -Tv         - Set output format to 'v'
+ -Kv         - Set layout engine to 'v' (overrides default based on command name)
+ -lv         - Use external library 'v'
+ -ofile      - Write output to 'file'
+ -O          - Automatically generate an output filename based on the input filename with a .'format' appended. (Causes all -ofile options to be ignored.) 
+ -P          - Internally generate a graph of the current plugins. 
+ -q[l]       - Set level of message suppression (=1)
+ -s[v]       - Scale input by 'v' (=72)
+ -y          - Invert y coordinate in output
+
+ -n[v]       - No layout mode 'v' (=1)
+ -x          - Reduce graph
+
+ -Lg         - Don't use grid
+ -LO         - Use old attractive force
+ -Ln<i>      - Set number of iterations to i
+ -LU<i>      - Set unscaled factor to i
+ -LC<v>      - Set overlap expansion factor to v
+ -LT[*]<v>   - Set temperature (temperature factor) to v
+
+ -m          - Memory test (Observe no growth with top. Kill when done.)
+ -m[v]       - Memory test - v iterations.
+
+ -c          - Configure plugins (Writes $prefix/lib/graphviz/config 
+               with available plugin information.  Needs write privilege.)
+ -?          - Print usage and exit
+
+C:\Temp>nop.exe -? 
+Usage: nop [-p?] <files>
+  -p - check for valid DOT
+  -? - print usage
+If no files are specified, stdin is used
+
+C:\Temp>osage.exe -? 
+Usage: osage [-Vv?] [-(GNE)name=val] [-(KTlso)<val>] <dot files>
+(additional options for neato)    [-x] [-n<v>]
+(additional options for fdp)      [-L(gO)] [-L(nUCT)<val>]
+(additional options for memtest)  [-m<v>]
+(additional options for config)  [-cv]
+
+ -V          - Print version and exit
+ -v          - Enable verbose mode 
+ -Gname=val  - Set graph attribute 'name' to 'val'
+ -Nname=val  - Set node attribute 'name' to 'val'
+ -Ename=val  - Set edge attribute 'name' to 'val'
+ -Tv         - Set output format to 'v'
+ -Kv         - Set layout engine to 'v' (overrides default based on command name)
+ -lv         - Use external library 'v'
+ -ofile      - Write output to 'file'
+ -O          - Automatically generate an output filename based on the input filename with a .'format' appended. (Causes all -ofile options to be ignored.) 
+ -P          - Internally generate a graph of the current plugins. 
+ -q[l]       - Set level of message suppression (=1)
+ -s[v]       - Scale input by 'v' (=72)
+ -y          - Invert y coordinate in output
+
+ -n[v]       - No layout mode 'v' (=1)
+ -x          - Reduce graph
+
+ -Lg         - Don't use grid
+ -LO         - Use old attractive force
+ -Ln<i>      - Set number of iterations to i
+ -LU<i>      - Set unscaled factor to i
+ -LC<v>      - Set overlap expansion factor to v
+ -LT[*]<v>   - Set temperature (temperature factor) to v
+
+ -m          - Memory test (Observe no growth with top. Kill when done.)
+ -m[v]       - Memory test - v iterations.
+
+ -c          - Configure plugins (Writes $prefix/lib/graphviz/config 
+               with available plugin information.  Needs write privilege.)
+ -?          - Print usage and exit
+
+C:\Temp>patchwork.exe -? 
+Usage: patchwork [-Vv?] [-(GNE)name=val] [-(KTlso)<val>] <dot files>
+(additional options for neato)    [-x] [-n<v>]
+(additional options for fdp)      [-L(gO)] [-L(nUCT)<val>]
+(additional options for memtest)  [-m<v>]
+(additional options for config)  [-cv]
+
+ -V          - Print version and exit
+ -v          - Enable verbose mode 
+ -Gname=val  - Set graph attribute 'name' to 'val'
+ -Nname=val  - Set node attribute 'name' to 'val'
+ -Ename=val  - Set edge attribute 'name' to 'val'
+ -Tv         - Set output format to 'v'
+ -Kv         - Set layout engine to 'v' (overrides default based on command name)
+ -lv         - Use external library 'v'
+ -ofile      - Write output to 'file'
+ -O          - Automatically generate an output filename based on the input filename with a .'format' appended. (Causes all -ofile options to be ignored.) 
+ -P          - Internally generate a graph of the current plugins. 
+ -q[l]       - Set level of message suppression (=1)
+ -s[v]       - Scale input by 'v' (=72)
+ -y          - Invert y coordinate in output
+
+ -n[v]       - No layout mode 'v' (=1)
+ -x          - Reduce graph
+
+ -Lg         - Don't use grid
+ -LO         - Use old attractive force
+ -Ln<i>      - Set number of iterations to i
+ -LU<i>      - Set unscaled factor to i
+ -LC<v>      - Set overlap expansion factor to v
+ -LT[*]<v>   - Set temperature (temperature factor) to v
+
+ -m          - Memory test (Observe no growth with top. Kill when done.)
+ -m[v]       - Memory test - v iterations.
+
+ -c          - Configure plugins (Writes $prefix/lib/graphviz/config 
+               with available plugin information.  Needs write privilege.)
+ -?          - Print usage and exit
+
+C:\Temp>prune.exe -? 
+
+C:\Temp>sccmap.exe -? 
+Usage: sccmap.exe [-sdv?] <files>
+  -s           - only produce statistics
+  -S           - silent
+  -d           - allow degenerate components
+  -o<outfile>  - write to <outfile> (stdout)
+  -v           - verbose
+  -?           - print usage
+If no files are specified, stdin is used
+
+C:\Temp>sfdp.exe -? 
+Usage: sfdp [-Vv?] [-(GNE)name=val] [-(KTlso)<val>] <dot files>
+(additional options for neato)    [-x] [-n<v>]
+(additional options for fdp)      [-L(gO)] [-L(nUCT)<val>]
+(additional options for memtest)  [-m<v>]
+(additional options for config)  [-cv]
+
+ -V          - Print version and exit
+ -v          - Enable verbose mode 
+ -Gname=val  - Set graph attribute 'name' to 'val'
+ -Nname=val  - Set node attribute 'name' to 'val'
+ -Ename=val  - Set edge attribute 'name' to 'val'
+ -Tv         - Set output format to 'v'
+ -Kv         - Set layout engine to 'v' (overrides default based on command name)
+ -lv         - Use external library 'v'
+ -ofile      - Write output to 'file'
+ -O          - Automatically generate an output filename based on the input filename with a .'format' appended. (Causes all -ofile options to be ignored.) 
+ -P          - Internally generate a graph of the current plugins. 
+ -q[l]       - Set level of message suppression (=1)
+ -s[v]       - Scale input by 'v' (=72)
+ -y          - Invert y coordinate in output
+
+ -n[v]       - No layout mode 'v' (=1)
+ -x          - Reduce graph
+
+ -Lg         - Don't use grid
+ -LO         - Use old attractive force
+ -Ln<i>      - Set number of iterations to i
+ -LU<i>      - Set unscaled factor to i
+ -LC<v>      - Set overlap expansion factor to v
+ -LT[*]<v>   - Set temperature (temperature factor) to v
+
+ -m          - Memory test (Observe no growth with top. Kill when done.)
+ -m[v]       - Memory test - v iterations.
+
+ -c          - Configure plugins (Writes $prefix/lib/graphviz/config 
+               with available plugin information.  Needs write privilege.)
+ -?          - Print usage and exit
+
+C:\Temp>smyrna.exe -? 
+Usage: smyrns [-v?] <file>
+  -f<WxH:bits@rate>         - full-screen mode
+  -e         - draw edges as splines if available
+  -v         - verbose
+  -?         - print usage
+
+C:\Temp>tred.exe -? 
+Usage: tred.exe [-?] <files>
+  -? - print usage
+If no files are specified, stdin is used
+
+C:\Temp>twopi.exe -? 
+Usage: twopi [-Vv?] [-(GNE)name=val] [-(KTlso)<val>] <dot files>
+(additional options for neato)    [-x] [-n<v>]
+(additional options for fdp)      [-L(gO)] [-L(nUCT)<val>]
+(additional options for memtest)  [-m<v>]
+(additional options for config)  [-cv]
+
+ -V          - Print version and exit
+ -v          - Enable verbose mode 
+ -Gname=val  - Set graph attribute 'name' to 'val'
+ -Nname=val  - Set node attribute 'name' to 'val'
+ -Ename=val  - Set edge attribute 'name' to 'val'
+ -Tv         - Set output format to 'v'
+ -Kv         - Set layout engine to 'v' (overrides default based on command name)
+ -lv         - Use external library 'v'
+ -ofile      - Write output to 'file'
+ -O          - Automatically generate an output filename based on the input filename with a .'format' appended. (Causes all -ofile options to be ignored.) 
+ -P          - Internally generate a graph of the current plugins. 
+ -q[l]       - Set level of message suppression (=1)
+ -s[v]       - Scale input by 'v' (=72)
+ -y          - Invert y coordinate in output
+
+ -n[v]       - No layout mode 'v' (=1)
+ -x          - Reduce graph
+
+ -Lg         - Don't use grid
+ -LO         - Use old attractive force
+ -Ln<i>      - Set number of iterations to i
+ -LU<i>      - Set unscaled factor to i
+ -LC<v>      - Set overlap expansion factor to v
+ -LT[*]<v>   - Set temperature (temperature factor) to v
+
+ -m          - Memory test (Observe no growth with top. Kill when done.)
+ -m[v]       - Memory test - v iterations.
+
+ -c          - Configure plugins (Writes $prefix/lib/graphviz/config 
+               with available plugin information.  Needs write privilege.)
+ -?          - Print usage and exit
+
+C:\Temp>unflatten.exe -? 
